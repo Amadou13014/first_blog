@@ -1,0 +1,485 @@
+/*  ------ HEADER -----------  */
+* {
+  padding: 0;
+  margin: 0;
+}
+.categorie {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 0px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #84947b;
+  padding: 2%;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+  height: 160px;
+  padding: 1%;
+}
+.barre {
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+header {
+  margin-bottom: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e1e9e1;
+}
+
+li {
+  justify-content: space-around;
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
+}
+
+li a {
+  display: block;
+  color: #2f2e2e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #e1e9e1;
+}
+/* -------- header1----------------- */
+
+/*  ------ footer -----------  */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.2rem;
+}
+.reseau {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 200px;
+  background: #e1e9e1;
+  width: 100%;
+  padding-top: 22px;
+  height: 30px;
+  padding-top: 20px;
+}
+/*  ------ A propos -----------  */
+.traits {
+  margin: 10px 0px;
+  width: 20px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3%;
+}
+.lorem {
+  text-align: justify;
+}
+.profil {
+  width: 400px;
+  height: 400px;
+  display: block;
+  left: 20%;
+}
+
+.texts {
+  width: 400px;
+  height: 400px;
+  display: block;
+  padding: 2%;
+  left: 50%;
+}
+/*  ------ Recettes -----------  */
+
+.titre1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #84947b;
+  padding: 2%;
+}
+
+.texts2 {
+  width: 60%;
+  height: 200px;
+  display: block;
+  text-align: justify;
+  margin-left: 22%;
+}
+.profil2 {
+  display: block;
+  margin-left: 40%;
+  width: 550px;
+  height: 550px;
+}
+
+.carre {
+  width: 800px;
+  height: 900px;
+  border-color: #84947b;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.imgtext {
+  padding: 30px;
+  width: 700px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.textrecette {
+  padding-left: 50px;
+  text-align: justify;
+}
+.textrecette1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  width: 700px;
+  height: 50px;
+  background-color: #84947b;
+  border-color: #84947b;
+  border-style: solid;
+  color: white;
+}
+
+.commentaire {
+  font-weight: bold;
+  padding: 5px;
+}
+.commentaire1 {
+  display: flex;
+  flex-direction: row;
+}
+.montrait {
+  margin-bottom: 20px;
+
+  width: 700px;
+}
+/*  ------ Contact -----------  */
+
+.contact {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-top: 20px;
+  margin-right: 240px;
+  margin-bottom: 3px;
+}
+
+.envoyer {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 55%;
+  width: 70px;
+  height: 40px;
+  background-color: #84947b;
+  border-color: #84947b;
+  border-style: solid;
+  color: white;
+}
+#email1 {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 0px;
+}
+.submitMsg31 {
+  display: block;
+  left: 1000px;
+}
+/*  ------ Connexion -----------  */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.envoyer1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #84947b;
+  border-style: solid;
+  background-color: #84947b;
+  width: 70px;
+  height: 40px;
+}
+/*  ------ Accueil -----------  */
+
+.container {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+}
+.margin {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+/* coter 1 */
+.cote1 {
+  height: 33%;
+  margin-right: 20px;
+}
+.trait1 {
+  width: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.trait2 {
+  width: 345px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.reseau1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: auto;
+  height: 25px;
+}
+.traitetoile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.colorstar {
+  color: #b2996b;
+}
+.trait3 {
+  width: 162px;
+}
+.trait4 {
+  width: 165px;
+}
+.trait5 {
+  width: 345px;
+  margin-bottom: 20px;
+}
+.elu {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.text2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.trait6 {
+  width: 20px;
+}
+.pasta1 {
+  width: 347px;
+  height: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.voirrecette {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 348px;
+  height: 50px;
+  background-color: #84947b;
+  border-color: #84947b;
+  border-style: solid;
+  color: white;
+}
+/* coter 2 */
+.cote2 {
+  margin-right: 60px;
+  height: 67%;
+  border-color: #84947b;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.imgtext1 {
+  width: auto;
+  height: 650px;
+}
+.textrecette2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.textrecette3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.personne {
+  display: flex;
+  flex-direction: row;
+}
+.desc {
+  margin-left: 10px;
+}
+
+.button1 {
+  background-color: #84947b;
+  border-color: #84947b;
+  width: 351px;
+  height: 50px;
+}
+.button3 {
+  background-color: #84947b;
+  border-color: #84947b;
+  width: 387px;
+  height: 44px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.montrait1 {
+  margin-bottom: 20px;
+}
+.commentaire2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.chat {
+  margin-right: 7px;
+}
+.colorstar {
+  color: #b2996b;
+}
+/* inscription */
+
+.buttonenvoyer {
+  display: flex;
+  flex-direction: row;
+}
+.envoyer5 {
+  margin-bottom: 1200px;
+}
+.submit2 {
+  margin-top: 200px;
+}
+/* Controle */
+/*                   
+.ajtsupp{
+    width: 800px;
+    height: 500px;
+    border-color: #84947b;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+} */
+/* .ajtsupp {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 400px 100px 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  
+} */
+.adminstration {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #84947b;
+  padding: 2%;
+}
+.ajtcontact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ 
+}
+.ajtbutton1 {
+  margin-left: 20px;
+}
+              /* publication */
+.container1{
+  display: flex;
+  justify-content: center;
+}
+.submitPubl{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-color: #84947b;
+  border-style: solid;
+  background-color: #84947b;
+  width: 70px;
+  height: 40px;
+}
+.contact1{
+  display: block;
+}
+                                                /* espacecom */
+.left3{
+  height: 33%;
+  margin-right: 30px;
+}
+.right3{
+  text-align: justify;
+  margin-right: 20px;
+}
+.container3{
+  display: flex;
+  flex-direction: row;
+}
+.commente{
+  margin-left: 30px;
+}
+/* .envoyer3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #84947b;
+    border-style: solid;
+    background-color: #84947b;
+    width: 70px;
+    height: 40px;
+  } */
+/* .envoyer1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #84947b;
+    border-style: solid;
+    background-color: #84947b;
+    width: 70px;
+    height: 40px;
+  }
+  /*   */
